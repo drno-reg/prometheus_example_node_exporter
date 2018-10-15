@@ -1,3 +1,5 @@
+package Prometheus;
+
 import io.prometheus.client.Counter;
 import io.prometheus.client.Gauge;
 import io.prometheus.client.Histogram;
@@ -10,7 +12,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 //import io.prometheus.client.vertx.MetricsHandler;
 
-public class ExampleExporter {
+public class NodeExporter {
 
     static final Gauge g = Gauge.build().name("gauge").help("blah").register();
     static final Counter c = Counter.build().name("counter").help("meh").register();

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact name="prometheus_node_exporter">
+    <output-path>$PROJECT_DIR$/out/artifacts/prometheus_node_exporter</output-path>
+    <root id="root">
+      <element id="archive" name="prometheus_node_exporter.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/artifact/prometheus_node_exporter/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="prometheus_example_node_exporter" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="libs" />
+      </element>
+    </root>
+  </artifact>
+</component>
